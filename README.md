@@ -1,5 +1,5 @@
 # Quantum-Puzzle
-Simple puzzle game, written in python.
+Puzzle game, written in python.
 
 Simple to play (Even has a tutorial)
 
