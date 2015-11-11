@@ -1,8 +1,9 @@
 # Quantum-Puzzle
 Simple puzzle game, written in python.
 
-Simple to play (Even has a tuturial
-The game is mostly proof of concept at this point. It's not very challenging or engagin, but it's not meant to be. 
+Simple to play (Even has a tutorial)
+
+The game is mostly proof of concept at this point. It's not very challenging or engaging, but it's not meant to be. 
 Maybe further down the line...
 
 
@@ -34,4 +35,4 @@ Example:
 ```
 
 Follow the instructions in the game.
-Includes a tuturial, so you won't be lost as to what to do.
+Includes a tutorial, so you won't be lost as to what to do.
