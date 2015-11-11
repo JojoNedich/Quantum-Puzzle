@@ -1,6 +1,7 @@
 # Quantum-Puzzle
 Simple puzzle game, written in python.
 
+Simple to play (Even has a tuturial
 The game is mostly proof of concept at this point. It's not very challenging or engagin, but it's not meant to be. 
 Maybe further down the line...
 
@@ -28,4 +29,9 @@ sudo apt-get install git
 Example:
 
  ```{r, engine='sh', count_lines}
+ cd ~/Downloads/Quantum-Puzzle/
+ python3 game.py
 ```
+
+Follow the instructions in the game.
+Includes a tuturial, so you won't be lost as to what to do.
