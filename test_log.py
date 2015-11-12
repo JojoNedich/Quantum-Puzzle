@@ -55,3 +55,17 @@ print('testing random puzzle generation')
 
 disordered1 = generate_disordered_list(9)
 print_arrow_list(disordered1)
+
+print('')
+print('---------------')
+print('testing color cycling')
+
+cylce_list = [Arrow(), Arrow('yellow'), Arrow('blue'), Arrow('red')]
+print_arrow_list(cylce_list)
+
+print('flipping 2')
+colored_flip(cylce_list,cylce_list[1] )
+print_arrow_list(cylce_list)
+print('flipping 3')
+colored_flip(cylce_list,cylce_list[2] )
+print_arrow_list(cylce_list)

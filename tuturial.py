@@ -90,6 +90,33 @@ def play_tuturial():
         return
     print('=========')
 
+    print('Yellow ones are special!')
+    print('They don\'t actually flip anything.')
+    print('They cycle the color of the ones right next to them')
+    print('If it\'s white it will turn yellow and vice versa')
+    print('If it\'s blue it will turn red and vice versa')
+
+    usr_in = input('')
+    if usr_in == 'exit':
+        return
+    print('=========')
+
+    print('Example:')
+    cycle_list = [Arrow(), Arrow('yellow'), Arrow('blue') ,Arrow('red')]
+    print_arrow_list(cycle_list)
+
+    print('flipping 2')
+    colored_flip(cycle_list, cycle_list[1])
+    print_arrow_list(cycle_list)
+    print('flipping 1')
+    colored_flip(cycle_list, cycle_list[0])
+    print_arrow_list(cycle_list)
+
+    usr_in = input('')
+    if usr_in == 'exit':
+        return
+    print('=========')
+
     print('Simple enough?')
     print('Good.')
     print('Have fun')
